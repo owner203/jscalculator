@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8" />
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div>
+    <h2>Calculator</h2>
+    <p>Ver 0.1</p>
+</div>
+<div>
+    <p><input type="text" id="result" name="result"></p>
+    <input type="button" value="C" onclick="clr()">
+    <input type="button" value="(" onclick="edit(this)">
+    <input type="button" value=")" onclick="edit(this)">
+    <input type="button" value="/" onclick="edit(this)">
+    <br>
+    <input type="button" value="7" onclick="edit(this)">
+    <input type="button" value="8" onclick="edit(this)">
+    <input type="button" value="9" onclick="edit(this)">
+    <input type="button" value="*" onclick="edit(this)">
+    <br>
+    <input type="button" value="4" onclick="edit(this)">
+    <input type="button" value="5" onclick="edit(this)">
+    <input type="button" value="6" onclick="edit(this)">
+    <input type="button" value="-" onclick="edit(this)">
+    <br>
+    <input type="button" value="1" onclick="edit(this)">
+    <input type="button" value="2" onclick="edit(this)">
+    <input type="button" value="3" onclick="edit(this)">
+    <input type="button" value="+" onclick="edit(this)">
+    <br>
+    <input type="button" value="0" onclick="edit(this)">
+    <input type="button" value="." onclick="edit(this)">
+    <input type="button" value=" " onclick="">
+    <input type="button" value="=" onclick="calc()">
+    <br>
+</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

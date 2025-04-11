@@ -9,5 +9,5 @@ function edit(elem) {
 }
 
 function calc() {
-    result.value = new Function("return　" + result.value)();
+    result.value = new Function("return " + result.value)();
 }
